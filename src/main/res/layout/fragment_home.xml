@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".view.HomeFragment">
+
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:weightSum="10"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_height="25dp"
+            android:layout_width="match_parent"
+            android:layout_weight="2"></RelativeLayout>
+
+
+        <GridLayout
+            android:layout_height="645dp"
+            android:layout_width="match_parent"
+            android:layout_weight="8"
+            android:rowCount="3"
+            android:padding="14dp"
+            android:columnOrderPreserved="false"
+            android:columnCount="2"
+            android:alignmentMode="alignMargins"
+            android:id="@+id/mainGrid">
+
+            <!-- Row 1 -->
+
+
+            <!-- Column 1 -->
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/map1"
+                android:layout_height="0dp"
+                android:layout_width="0dp"
+                app:cardElevation="8dp"
+                app:cardCornerRadius="8dp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1">
+
+
+                <LinearLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="16dp"
+                    android:layout_gravity="center_horizontal|center_vertical">
+
+                    <ImageView
+                        android:layout_height="169dp"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/clothes" />
+
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:textColor="@android:color/black"
+                        android:textAlignment="center"
+                        android:text="ملابس" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <!-- Column 2 -->
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/map2"
+                android:layout_height="0dp"
+                android:layout_width="0dp"
+                app:cardElevation="8dp"
+                app:cardCornerRadius="8dp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1">
+
+
+                <LinearLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="16dp"
+                    android:layout_gravity="center_horizontal|center_vertical">
+
+                    <ImageView
+                        android:layout_height="169dp"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/bread" />
+
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:textColor="@android:color/black"
+                        android:textAlignment="center"
+                        android:text="طعام" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <!-- Row 2 -->
+
+
+            <!-- Column 1 -->
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/map3"
+                android:layout_height="0dp"
+                android:layout_width="0dp"
+                app:cardElevation="8dp"
+                app:cardCornerRadius="8dp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1">
+
+
+                <LinearLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="16dp"
+                    android:layout_gravity="center_horizontal|center_vertical">
+
+                    <ImageView
+                        android:layout_height="170dp"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/electronics" />
+
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:textColor="@android:color/black"
+                        android:textAlignment="center"
+                        android:text="أجهزة كهربائية" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <!-- Column 2 -->
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/map4"
+                android:layout_height="0dp"
+                android:layout_width="0dp"
+                app:cardElevation="8dp"
+                app:cardCornerRadius="8dp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1">
+
+
+                <LinearLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="16dp"
+                    android:layout_gravity="center_horizontal|center_vertical">
+
+                    <ImageView
+                        android:layout_height="168dp"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/furniture" />
+
+                    <TextView
+                        android:layout_height="26dp"
+                        android:layout_width="match_parent"
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:textColor="@android:color/black"
+                        android:textAlignment="center"
+                        android:text="أثاث" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <!-- Row 2 -->
+
+
+            <!-- Column 1 -->
+
+
+        </GridLayout>
+
+    </LinearLayout>
+
+
+</FrameLayout>

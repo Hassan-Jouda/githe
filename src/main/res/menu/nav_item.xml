@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="الخيارات"
+        >
+        <menu>
+            <item
+                android:id="@+id/home"
+                android:title="الصفحة الرئيسية"
+                android:icon="@drawable/ic_home"
+                />
+            <item
+                android:id="@+id/profile"
+                android:title="تبرع"
+                android:icon="@drawable/help"
+                />
+            <item
+            android:id="@+id/donat"
+            android:title="التبرعات"
+            android:icon="@drawable/donation"/>
+
+            <item
+                android:id="@+id/add"
+                android:title="اضافة جمعية"
+                android:icon="@drawable/plus"                />
+
+            <item
+                android:id="@+id/addorganisation"
+                android:title="الجمعيات المضافة"
+                             android:icon="@drawable/ffff"/>
+
+            <item
+                android:id="@+id/doctoer"
+                android:title="الاطباء"
+                android:icon="@drawable/doctor"
+                />
+            <item
+                android:id="@+id/addpepole"
+                android:title="اضافة شخص"
+                android:icon="@drawable/dddda"
+                />
+            <item
+                android:id="@+id/notification"
+                android:title="للتواصل و الاستفسار"
+                android:icon="@drawable/ic_contactus"                />
+
+
+        </menu>
+
+    </item>
+    <item
+        android:title="قريبا"
+        >
+        <menu>
+
+            <item
+                android:id="@+id/login"
+                android:title="تسجيل دخول"
+                android:icon="@drawable/login"
+                />
+            <item
+                android:id="@+id/register"
+                android:title=" انشاء حساب"
+                android:icon="@drawable/addd"
+                />
+            <item
+                android:title="الحساب الشخصي"
+                />
+
+        </menu>
+
+
+    </item>
+
+
+</menu>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_frag"
+    app:startDestination="@id/home">
+
+    <fragment
+        android:id="@+id/home"
+        android:name="com.malkinfo.navigationdrawar.view.HomeFragment"
+        android:label="الصفحة الرئيسية"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/profile"
+        android:name="com.malkinfo.navigationdrawar.view.ProfileFragment"
+        android:label="تبرع"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+    android:id="@+id/donat"
+    android:name="com.malkinfo.navigationdrawar.view.donat"
+    android:label="التبرعات"
+    tools:layout="@layout/donat" />
+    <fragment
+        android:id="@+id/doctoer"
+        android:name="com.malkinfo.navigationdrawar.view.doctoer"
+        android:label="الاطباء"
+        tools:layout="@layout/doctoer" />
+    <fragment
+        android:id="@+id/add"
+        android:name="com.malkinfo.navigationdrawar.view.addFragment"
+        android:label="اضافة جمعية"
+        tools:layout="@layout/fragment_add" />
+    <fragment
+        android:id="@+id/addorganisation"
+        android:name="com.malkinfo.navigationdrawar.view.addorganisation"
+        android:label="الجمعيات المضافة"
+        tools:layout="@layout/addorganisation" />
+    <fragment
+        android:id="@+id/addpepole"
+        android:name="com.malkinfo.navigationdrawar.view.addpepole"
+        android:label=" اضافة شخص"
+        tools:layout="@layout/addpepole" />
+    <fragment
+        android:id="@+id/notification"
+        android:name="com.malkinfo.navigationdrawar.view.NotificationFragment"
+        android:label="للتواصل و الاستفسار"
+        tools:layout="@layout/fragment_notification" />
+    <fragment
+        android:id="@+id/login"
+        android:name="com.malkinfo.navigationdrawar.view.login1"
+        android:label="تسجيل الدخول"
+        tools:layout="@layout/login" />
+    <fragment
+        android:id="@+id/register"
+        android:name="com.malkinfo.navigationdrawar.view.register"
+        android:label="تسجيل الدخول"
+        tools:layout="@layout/register" />
+
+</navigation>
